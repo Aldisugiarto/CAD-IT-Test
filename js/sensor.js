@@ -361,7 +361,7 @@ function plotChart(idHtml, titleChart, labels, datas, roomArea) {
         const newDataset = {
             label: label,
             data: data,
-            fill: true,
+            fill: false,
             borderColor: color,
             tension: 0.1
         }
