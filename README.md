@@ -1,5 +1,7 @@
 CAD-IT IoT Application Code Test
 Name    : Aldi Sugiarto
+Email   : aldisugiarto@gmail.com
+
 Job application: IoT Application Developer
 
 Step to run application:
