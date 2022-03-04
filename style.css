@@ -1,0 +1,104 @@
+/* Styling for display */
+table{
+    border-collapse: collapse;
+    position: relative;
+}
+td,tr{
+    border: 1px solid;
+}
+th {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+.align-center{
+    text-align: center;
+}
+.chart{
+    position: relative;;
+    width: 80%;
+    /* height: 3; */
+    padding-left: 1rem;
+    border:  1px solid;
+}
+.box{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.min{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(18, 37, 204);
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    margin: 2rem 2rem;
+}
+.max{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(222, 11, 11);
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    margin: 2rem 2rem;
+}
+.med{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background-color:rgb(237, 149, 97);
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    margin: 2rem 2rem;
+}
+.avg{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(97, 237, 99);
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    margin: 2rem 2rem;
+    
+}
+.container-stat{
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    padding-bottom: 2rem;
+}
+.stats.sens{
+    display: inline-flex;
+}
+
+.sim-style{
+    display: inline-block;
+    width: 500px;
+    /* height: 200px; */
+
+}
+.btn-style{
+    margin-left: 20rem;
+    width: 10rem;
+}
+.start-lbl{
+    align-items: center;
+    text-align: center;
+    padding: 1mm 1mm;
+}
